@@ -1,0 +1,8 @@
+.swiper-button-prev, .swiper-button-next{
+  color: lightgray;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover{
+  color: #87c5f4;
+  text-shadow: #27465e 0 0 10px;
+}
