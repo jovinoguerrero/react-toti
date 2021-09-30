@@ -16,10 +16,13 @@ You will also see any lint errors in the console.
 
 ## Fix Carrousel Problem
 
-In order to run this project correctly, a small manual change in the Swiper library must be done.
+In order to run this project correctly:
+- was used the version 6.0.2
+- a small manual change in the Swiper library must be done 👇
 
 swiper-options.d.ts
 ```
+...
 export interface SwiperOptions {
 ...
 ...
@@ -27,4 +30,5 @@ export interface SwiperOptions {
   pagination?: PaginationOptions | boolean;
 ...
 ...
+}
 ```
