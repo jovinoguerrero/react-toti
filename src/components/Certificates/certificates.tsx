@@ -9,6 +9,7 @@ import cert2 from '../../assets/certificates/certPO.jpg';
 import cert3 from '../../assets/certificates/cert-metdev.jpg';
 import cert4 from '../../assets/certificates/cert-liderança-na-pratica.jpg';
 import cert5 from '../../assets/certificates/cert-futuros.jpg';
+import cert6 from '../../assets/certificates/cert-react-toti.jpg';
 
 SwiperCore.use([Navigation, Autoplay]);
 
@@ -20,6 +21,7 @@ export default function Certificates () {
         {id: 3, image: cert3, },
         {id: 4, image: cert4, },
         {id: 5, image: cert5, },
+        {id: 6, image: cert6, },
     ];
 
     const params = {
@@ -29,18 +31,6 @@ export default function Certificates () {
         navigation: true,
         autoplay: true,
     };
-
-    // for (let i = 0; i < 5; i += 1) {
-    //     slides.push(
-    //         <SwiperSlide key={`slide-${i}`} tag='li' style={{listStyle:'none'}}>
-    //             <img
-    //                 src={`https://picsum.photos/id/${i+1}/500/300`}
-    //                 alt={`Slide ${i}`}
-    //             />
-    //         </SwiperSlide>
-    //     );
-    //     console.log(slides);
-    // }
 
     return (
         <>
